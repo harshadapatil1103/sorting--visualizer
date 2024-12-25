@@ -1,0 +1,31 @@
+:root {
+  --width: 40px;
+}
+
+body {
+  background-color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 1% 2% 0 2%;
+  text-align: left;
+}
+
+.bars-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 5%;
+  height: 70vh;
+}
+
+.bar {
+  background-color: whitesmoke;
+  margin-right: 2px;
+  margin-left: 2px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: height 0.3s ease-out, background-color 0.3s ease-out;
+}
